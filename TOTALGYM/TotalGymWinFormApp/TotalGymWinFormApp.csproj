@@ -86,6 +86,9 @@
     <EmbeddedResource Include="frmEquipo.resx">
       <DependentUpon>frmEquipo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPersonal.resx">
       <DependentUpon>frmPersonal.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +123,12 @@
   <ItemGroup>
     <Content Include="bin\Debug\TotalGymWinFormApp.vshost.exe" />
     <Content Include="obj\Debug\TotalGymWinFormApp.csproj.FileListAbsolute.txt" />
+    <None Include="Resources\ventanalogin6.jpg" />
+    <None Include="Resources\ventanalogin5.jpg" />
+    <None Include="Resources\ventanalogin4.jpg" />
+    <None Include="Resources\ventanalogin3.jpg" />
+    <None Include="Resources\ventanalogin2.jpg" />
+    <None Include="Resources\ventanalogin1.jpg" />
     <None Include="Resources\ventanaequipo8.jpg" />
     <None Include="Resources\ventanaequipo7.jpg" />
     <None Include="Resources\ventanaequipo6.jpg" />
