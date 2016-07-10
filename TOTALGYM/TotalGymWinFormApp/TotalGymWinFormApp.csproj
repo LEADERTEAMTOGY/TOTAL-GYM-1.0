@@ -92,6 +92,9 @@
     <EmbeddedResource Include="frmPersonal.resx">
       <DependentUpon>frmPersonal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -123,6 +126,9 @@
   <ItemGroup>
     <Content Include="bin\Debug\TotalGymWinFormApp.vshost.exe" />
     <Content Include="obj\Debug\TotalGymWinFormApp.csproj.FileListAbsolute.txt" />
+    <None Include="Resources\ventanaproductos3.jpg" />
+    <None Include="Resources\ventanaproductos2.jpg" />
+    <None Include="Resources\ventaanproductos1.jpg" />
     <None Include="Resources\ventanapersonal6.jpg" />
     <None Include="Resources\ventanapersonal5.jpg" />
     <None Include="Resources\ventanapersonal4.jpg" />

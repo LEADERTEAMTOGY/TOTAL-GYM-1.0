@@ -183,6 +183,16 @@ namespace TotalGymWinFormApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ventaanproductos1 {
+            get {
+                object obj = ResourceManager.GetObject("ventaanproductos1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ventanaequipo1 {
             get {
                 object obj = ResourceManager.GetObject("ventanaequipo1", resourceCulture);
@@ -366,6 +376,26 @@ namespace TotalGymWinFormApp.Properties {
         internal static System.Drawing.Bitmap ventanapersonal6 {
             get {
                 object obj = ResourceManager.GetObject("ventanapersonal6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ventanaproductos2 {
+            get {
+                object obj = ResourceManager.GetObject("ventanaproductos2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ventanaproductos3 {
+            get {
+                object obj = ResourceManager.GetObject("ventanaproductos3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

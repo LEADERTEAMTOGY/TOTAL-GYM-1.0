@@ -21,5 +21,15 @@ namespace TotalGymWinFormApp
         {
 
         }
+
+        private void lbldescripcion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmProductos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
