@@ -123,6 +123,11 @@
   <ItemGroup>
     <Content Include="bin\Debug\TotalGymWinFormApp.vshost.exe" />
     <Content Include="obj\Debug\TotalGymWinFormApp.csproj.FileListAbsolute.txt" />
+    <None Include="Resources\ventanapersonal6.jpg" />
+    <None Include="Resources\ventanapersonal5.jpg" />
+    <None Include="Resources\ventanapersonal4.jpg" />
+    <None Include="Resources\ventanapersonal2.jpg" />
+    <None Include="Resources\ventanapersonal1.jpg" />
     <None Include="Resources\ventanalogin6.jpg" />
     <None Include="Resources\ventanalogin5.jpg" />
     <None Include="Resources\ventanalogin4.jpg" />

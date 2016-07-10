@@ -45,6 +45,8 @@
             // 
             // gppersonal
             // 
+            this.gppersonal.BackColor = System.Drawing.Color.Cyan;
+            this.gppersonal.BackgroundImage = global::TotalGymWinFormApp.Properties.Resources.ventanapersonal6;
             this.gppersonal.Controls.Add(this.btnconsultar);
             this.gppersonal.Controls.Add(this.btneliminar);
             this.gppersonal.Controls.Add(this.textBox4);
@@ -56,6 +58,8 @@
             this.gppersonal.Controls.Add(this.lblpuesto);
             this.gppersonal.Controls.Add(this.lblnombre);
             this.gppersonal.Controls.Add(this.lblcodigo);
+            this.gppersonal.Font = new System.Drawing.Font("Agency FB", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gppersonal.ForeColor = System.Drawing.Color.DarkSlateBlue;
             this.gppersonal.Location = new System.Drawing.Point(12, 31);
             this.gppersonal.Name = "gppersonal";
             this.gppersonal.Size = new System.Drawing.Size(506, 274);
@@ -65,92 +69,105 @@
             // 
             // btnconsultar
             // 
+            this.btnconsultar.BackColor = System.Drawing.Color.DeepPink;
+            this.btnconsultar.Font = new System.Drawing.Font("Code Bold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnconsultar.ForeColor = System.Drawing.Color.White;
             this.btnconsultar.Location = new System.Drawing.Point(364, 43);
             this.btnconsultar.Name = "btnconsultar";
             this.btnconsultar.Size = new System.Drawing.Size(96, 35);
             this.btnconsultar.TabIndex = 10;
             this.btnconsultar.Text = "Consultar";
-            this.btnconsultar.UseVisualStyleBackColor = true;
+            this.btnconsultar.UseVisualStyleBackColor = false;
             // 
             // btneliminar
             // 
+            this.btneliminar.BackColor = System.Drawing.Color.DeepPink;
+            this.btneliminar.Font = new System.Drawing.Font("Code Bold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btneliminar.ForeColor = System.Drawing.Color.White;
             this.btneliminar.Location = new System.Drawing.Point(364, 224);
             this.btneliminar.Name = "btneliminar";
             this.btneliminar.Size = new System.Drawing.Size(96, 37);
             this.btneliminar.TabIndex = 9;
             this.btneliminar.Text = "Eliminar";
-            this.btneliminar.UseVisualStyleBackColor = true;
+            this.btneliminar.UseVisualStyleBackColor = false;
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(84, 180);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(182, 20);
+            this.textBox4.Size = new System.Drawing.Size(182, 21);
             this.textBox4.TabIndex = 8;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(84, 140);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(252, 20);
+            this.textBox3.Size = new System.Drawing.Size(252, 21);
             this.textBox3.TabIndex = 7;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(84, 99);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(213, 20);
+            this.textBox2.Size = new System.Drawing.Size(213, 21);
             this.textBox2.TabIndex = 6;
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(84, 65);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 20);
+            this.textBox1.Size = new System.Drawing.Size(159, 21);
             this.textBox1.TabIndex = 5;
             // 
             // btnagregar
             // 
+            this.btnagregar.BackColor = System.Drawing.Color.DeepPink;
+            this.btnagregar.Font = new System.Drawing.Font("Code Bold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnagregar.ForeColor = System.Drawing.Color.White;
             this.btnagregar.Location = new System.Drawing.Point(84, 224);
             this.btnagregar.Name = "btnagregar";
             this.btnagregar.Size = new System.Drawing.Size(89, 37);
             this.btnagregar.TabIndex = 4;
             this.btnagregar.Text = "Agregar";
-            this.btnagregar.UseVisualStyleBackColor = true;
+            this.btnagregar.UseVisualStyleBackColor = false;
             // 
             // lblapellido
             // 
             this.lblapellido.AutoSize = true;
+            this.lblapellido.Font = new System.Drawing.Font("Code Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.lblapellido.Location = new System.Drawing.Point(21, 140);
             this.lblapellido.Name = "lblapellido";
-            this.lblapellido.Size = new System.Drawing.Size(44, 13);
+            this.lblapellido.Size = new System.Drawing.Size(63, 13);
             this.lblapellido.TabIndex = 3;
             this.lblapellido.Text = "Apellido";
             // 
             // lblpuesto
             // 
             this.lblpuesto.AutoSize = true;
+            this.lblpuesto.Font = new System.Drawing.Font("Code Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.lblpuesto.Location = new System.Drawing.Point(21, 180);
             this.lblpuesto.Name = "lblpuesto";
-            this.lblpuesto.Size = new System.Drawing.Size(40, 13);
+            this.lblpuesto.Size = new System.Drawing.Size(50, 13);
             this.lblpuesto.TabIndex = 2;
             this.lblpuesto.Text = "Puesto";
             // 
             // lblnombre
             // 
             this.lblnombre.AutoSize = true;
+            this.lblnombre.Font = new System.Drawing.Font("Code Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.lblnombre.Location = new System.Drawing.Point(21, 102);
             this.lblnombre.Name = "lblnombre";
-            this.lblnombre.Size = new System.Drawing.Size(44, 13);
+            this.lblnombre.Size = new System.Drawing.Size(54, 13);
             this.lblnombre.TabIndex = 1;
             this.lblnombre.Text = "Nombre";
             // 
             // lblcodigo
             // 
             this.lblcodigo.AutoSize = true;
+            this.lblcodigo.Font = new System.Drawing.Font("Code Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.lblcodigo.Location = new System.Drawing.Point(21, 65);
             this.lblcodigo.Name = "lblcodigo";
-            this.lblcodigo.Size = new System.Drawing.Size(40, 13);
+            this.lblcodigo.Size = new System.Drawing.Size(58, 13);
             this.lblcodigo.TabIndex = 0;
             this.lblcodigo.Text = "Codigo";
             // 
@@ -158,6 +175,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(530, 317);
             this.ControlBox = false;
             this.Controls.Add(this.gppersonal);
