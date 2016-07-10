@@ -65,7 +65,7 @@
             this.gbCliente.Controls.Add(this.lbNombre);
             this.gbCliente.Controls.Add(this.llbID);
             this.gbCliente.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.gbCliente.ForeColor = System.Drawing.Color.White;
+            this.gbCliente.ForeColor = System.Drawing.Color.Turquoise;
             this.gbCliente.Location = new System.Drawing.Point(12, 23);
             this.gbCliente.Name = "gbCliente";
             this.gbCliente.Size = new System.Drawing.Size(333, 276);
@@ -85,7 +85,7 @@
             this.lbEdad.AutoSize = true;
             this.lbEdad.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lbEdad.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.lbEdad.ForeColor = System.Drawing.Color.White;
+            this.lbEdad.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.lbEdad.Location = new System.Drawing.Point(9, 215);
             this.lbEdad.Name = "lbEdad";
             this.lbEdad.Size = new System.Drawing.Size(30, 11);
@@ -104,7 +104,7 @@
             this.lbTelefono.AutoSize = true;
             this.lbTelefono.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lbTelefono.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.lbTelefono.ForeColor = System.Drawing.Color.White;
+            this.lbTelefono.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.lbTelefono.Location = new System.Drawing.Point(6, 181);
             this.lbTelefono.Name = "lbTelefono";
             this.lbTelefono.Size = new System.Drawing.Size(53, 11);
@@ -123,7 +123,7 @@
             this.lbDomicilio.AutoSize = true;
             this.lbDomicilio.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lbDomicilio.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.lbDomicilio.ForeColor = System.Drawing.Color.White;
+            this.lbDomicilio.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.lbDomicilio.Location = new System.Drawing.Point(6, 145);
             this.lbDomicilio.Name = "lbDomicilio";
             this.lbDomicilio.Size = new System.Drawing.Size(61, 11);
@@ -134,7 +134,7 @@
             // 
             this.btnConsultar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnConsultar.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.btnConsultar.ForeColor = System.Drawing.Color.White;
+            this.btnConsultar.ForeColor = System.Drawing.Color.Turquoise;
             this.btnConsultar.Location = new System.Drawing.Point(241, 30);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(75, 23);
@@ -168,7 +168,7 @@
             this.lbApellido.AutoSize = true;
             this.lbApellido.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lbApellido.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.lbApellido.ForeColor = System.Drawing.Color.White;
+            this.lbApellido.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.lbApellido.Location = new System.Drawing.Point(6, 110);
             this.lbApellido.Name = "lbApellido";
             this.lbApellido.Size = new System.Drawing.Size(51, 11);
@@ -188,7 +188,7 @@
             this.lbNombre.AutoSize = true;
             this.lbNombre.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lbNombre.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.lbNombre.ForeColor = System.Drawing.Color.White;
+            this.lbNombre.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.lbNombre.Location = new System.Drawing.Point(6, 73);
             this.lbNombre.Name = "lbNombre";
             this.lbNombre.Size = new System.Drawing.Size(44, 11);
@@ -200,7 +200,7 @@
             this.llbID.AutoSize = true;
             this.llbID.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.llbID.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.llbID.ForeColor = System.Drawing.Color.White;
+            this.llbID.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.llbID.Location = new System.Drawing.Point(6, 40);
             this.llbID.Name = "llbID";
             this.llbID.Size = new System.Drawing.Size(58, 11);

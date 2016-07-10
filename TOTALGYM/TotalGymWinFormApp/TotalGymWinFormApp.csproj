@@ -120,6 +120,14 @@
   <ItemGroup>
     <Content Include="bin\Debug\TotalGymWinFormApp.vshost.exe" />
     <Content Include="obj\Debug\TotalGymWinFormApp.csproj.FileListAbsolute.txt" />
+    <None Include="Resources\ventanaequipo8.jpg" />
+    <None Include="Resources\ventanaequipo7.jpg" />
+    <None Include="Resources\ventanaequipo6.jpg" />
+    <None Include="Resources\ventanaequipo5.jpg" />
+    <None Include="Resources\ventanaequipo4.jpg" />
+    <None Include="Resources\ventanaequipo3.jpg" />
+    <None Include="Resources\ventanaequipo2.jpg" />
+    <None Include="Resources\ventanaequipo1.jpg" />
     <None Include="Resources\subcliente4.jpg" />
     <None Include="Resources\subcliente3.jpg" />
     <None Include="Resources\subcliente2.jpg" />
