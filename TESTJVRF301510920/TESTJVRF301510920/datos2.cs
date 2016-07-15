@@ -51,7 +51,7 @@ namespace TESTJVRF301510920
         public bool actualizar(string tabla, string campos, string condiction)
         {
             cn.Open();
-            string sql = "update " + tabla + " set " + "ID" + "set"+"APELLIDO"+ " where" + condiction;
+            string sql = "update " + tabla + " set "  + " where" + condiction;
             comando = new SqlCommand(sql, cn);
             
             int i = comando.ExecuteNonQuery();
