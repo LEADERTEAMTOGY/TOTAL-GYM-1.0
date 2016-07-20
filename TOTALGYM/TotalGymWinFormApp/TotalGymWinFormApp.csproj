@@ -121,6 +121,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="bin\Debug\TotalGymWinFormApp.exe.config" />
     <None Include="bin\Debug\TotalGymWinFormApp.vshost.exe.config" />
@@ -143,6 +144,9 @@
   <ItemGroup>
     <Content Include="bin\Debug\TotalGymWinFormApp.vshost.exe" />
     <Content Include="obj\Debug\TotalGymWinFormApp.csproj.FileListAbsolute.txt" />
+    <None Include="Resources\ventanalogin22.jpg" />
+    <None Include="Resources\ventanalogin61.jpg" />
+    <None Include="Resources\ventanalogin21.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">

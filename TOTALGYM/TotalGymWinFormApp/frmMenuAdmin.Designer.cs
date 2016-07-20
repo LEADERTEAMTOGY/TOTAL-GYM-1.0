@@ -40,9 +40,12 @@
             // lblEtiquetaUsuario
             // 
             this.lblEtiquetaUsuario.AutoSize = true;
-            this.lblEtiquetaUsuario.Location = new System.Drawing.Point(144, 9);
+            this.lblEtiquetaUsuario.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblEtiquetaUsuario.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.lblEtiquetaUsuario.ForeColor = System.Drawing.Color.Crimson;
+            this.lblEtiquetaUsuario.Location = new System.Drawing.Point(164, 9);
             this.lblEtiquetaUsuario.Name = "lblEtiquetaUsuario";
-            this.lblEtiquetaUsuario.Size = new System.Drawing.Size(49, 13);
+            this.lblEtiquetaUsuario.Size = new System.Drawing.Size(53, 11);
             this.lblEtiquetaUsuario.TabIndex = 0;
             this.lblEtiquetaUsuario.Text = "Usuario: ";
             // 
@@ -56,50 +59,65 @@
             // 
             // btnClientes
             // 
+            this.btnClientes.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnClientes.Font = new System.Drawing.Font("Code Bold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnClientes.ForeColor = System.Drawing.Color.Cyan;
             this.btnClientes.Location = new System.Drawing.Point(22, 42);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(117, 28);
             this.btnClientes.TabIndex = 2;
             this.btnClientes.Text = "Clientes";
-            this.btnClientes.UseVisualStyleBackColor = true;
+            this.btnClientes.UseVisualStyleBackColor = false;
             this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // btnEquipo
             // 
-            this.btnEquipo.Location = new System.Drawing.Point(22, 91);
+            this.btnEquipo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnEquipo.Font = new System.Drawing.Font("Code Bold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnEquipo.ForeColor = System.Drawing.Color.Cyan;
+            this.btnEquipo.Location = new System.Drawing.Point(22, 148);
             this.btnEquipo.Name = "btnEquipo";
             this.btnEquipo.Size = new System.Drawing.Size(117, 28);
             this.btnEquipo.TabIndex = 3;
             this.btnEquipo.Text = "Equipo";
-            this.btnEquipo.UseVisualStyleBackColor = true;
+            this.btnEquipo.UseVisualStyleBackColor = false;
             this.btnEquipo.Click += new System.EventHandler(this.btnEquipo_Click);
             // 
             // btnPersonal
             // 
-            this.btnPersonal.Location = new System.Drawing.Point(191, 42);
+            this.btnPersonal.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnPersonal.Font = new System.Drawing.Font("Code Bold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnPersonal.ForeColor = System.Drawing.Color.Cyan;
+            this.btnPersonal.Location = new System.Drawing.Point(222, 42);
             this.btnPersonal.Name = "btnPersonal";
             this.btnPersonal.Size = new System.Drawing.Size(117, 28);
             this.btnPersonal.TabIndex = 4;
             this.btnPersonal.Text = "Personal";
-            this.btnPersonal.UseVisualStyleBackColor = true;
+            this.btnPersonal.UseVisualStyleBackColor = false;
             this.btnPersonal.Click += new System.EventHandler(this.btnPersonal_Click);
             // 
             // btnProducto
             // 
-            this.btnProducto.Location = new System.Drawing.Point(191, 91);
+            this.btnProducto.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnProducto.Font = new System.Drawing.Font("Code Bold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnProducto.ForeColor = System.Drawing.Color.Cyan;
+            this.btnProducto.Location = new System.Drawing.Point(222, 148);
             this.btnProducto.Name = "btnProducto";
             this.btnProducto.Size = new System.Drawing.Size(117, 28);
             this.btnProducto.TabIndex = 5;
             this.btnProducto.Text = "Producto";
-            this.btnProducto.UseVisualStyleBackColor = true;
+            this.btnProducto.UseVisualStyleBackColor = false;
             this.btnProducto.Click += new System.EventHandler(this.btnProducto_Click);
             // 
             // lblInformacion
             // 
             this.lblInformacion.AutoSize = true;
-            this.lblInformacion.Location = new System.Drawing.Point(3, 160);
+            this.lblInformacion.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblInformacion.Font = new System.Drawing.Font("Agency FB", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformacion.ForeColor = System.Drawing.Color.Crimson;
+            this.lblInformacion.Location = new System.Drawing.Point(3, 215);
             this.lblInformacion.Name = "lblInformacion";
-            this.lblInformacion.Size = new System.Drawing.Size(110, 13);
+            this.lblInformacion.Size = new System.Drawing.Size(88, 17);
             this.lblInformacion.TabIndex = 6;
             this.lblInformacion.Text = "Acerca Total Gym 1.0";
             // 
@@ -107,7 +125,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(336, 179);
+            this.BackgroundImage = global::TotalGymWinFormApp.Properties.Resources.ventanalogin61;
+            this.ClientSize = new System.Drawing.Size(372, 237);
             this.ControlBox = false;
             this.Controls.Add(this.lblInformacion);
             this.Controls.Add(this.btnProducto);

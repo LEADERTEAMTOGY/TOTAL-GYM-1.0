@@ -38,29 +38,38 @@
             // lblInformacion
             // 
             this.lblInformacion.AutoSize = true;
-            this.lblInformacion.Location = new System.Drawing.Point(8, 155);
+            this.lblInformacion.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblInformacion.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformacion.ForeColor = System.Drawing.Color.Cyan;
+            this.lblInformacion.Location = new System.Drawing.Point(5, 151);
             this.lblInformacion.Name = "lblInformacion";
-            this.lblInformacion.Size = new System.Drawing.Size(110, 13);
+            this.lblInformacion.Size = new System.Drawing.Size(102, 20);
             this.lblInformacion.TabIndex = 13;
             this.lblInformacion.Text = "Acerca Total Gym 1.0";
             // 
             // btnProducto
             // 
-            this.btnProducto.Location = new System.Drawing.Point(71, 92);
+            this.btnProducto.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnProducto.Font = new System.Drawing.Font("Code Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnProducto.ForeColor = System.Drawing.Color.Cyan;
+            this.btnProducto.Location = new System.Drawing.Point(140, 143);
             this.btnProducto.Name = "btnProducto";
             this.btnProducto.Size = new System.Drawing.Size(117, 28);
             this.btnProducto.TabIndex = 10;
             this.btnProducto.Text = "Producto ";
-            this.btnProducto.UseVisualStyleBackColor = true;
+            this.btnProducto.UseVisualStyleBackColor = false;
             // 
             // btnEquipo
             // 
-            this.btnEquipo.Location = new System.Drawing.Point(71, 40);
+            this.btnEquipo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnEquipo.Font = new System.Drawing.Font("Code Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnEquipo.ForeColor = System.Drawing.Color.Cyan;
+            this.btnEquipo.Location = new System.Drawing.Point(140, 109);
             this.btnEquipo.Name = "btnEquipo";
             this.btnEquipo.Size = new System.Drawing.Size(117, 28);
             this.btnEquipo.TabIndex = 9;
             this.btnEquipo.Text = "Equipo";
-            this.btnEquipo.UseVisualStyleBackColor = true;
+            this.btnEquipo.UseVisualStyleBackColor = false;
             // 
             // lblNombreAdmin
             // 
@@ -73,9 +82,12 @@
             // lblEtiquetaUsuario
             // 
             this.lblEtiquetaUsuario.AutoSize = true;
-            this.lblEtiquetaUsuario.Location = new System.Drawing.Point(133, 15);
+            this.lblEtiquetaUsuario.BackColor = System.Drawing.SystemColors.GrayText;
+            this.lblEtiquetaUsuario.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEtiquetaUsuario.ForeColor = System.Drawing.Color.AntiqueWhite;
+            this.lblEtiquetaUsuario.Location = new System.Drawing.Point(177, 75);
             this.lblEtiquetaUsuario.Name = "lblEtiquetaUsuario";
-            this.lblEtiquetaUsuario.Size = new System.Drawing.Size(49, 13);
+            this.lblEtiquetaUsuario.Size = new System.Drawing.Size(48, 20);
             this.lblEtiquetaUsuario.TabIndex = 7;
             this.lblEtiquetaUsuario.Text = "Usuario: ";
             // 
@@ -83,7 +95,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(298, 175);
+            this.BackgroundImage = global::TotalGymWinFormApp.Properties.Resources.ventanalogin22;
+            this.ClientSize = new System.Drawing.Size(379, 174);
             this.ControlBox = false;
             this.Controls.Add(this.lblInformacion);
             this.Controls.Add(this.btnProducto);

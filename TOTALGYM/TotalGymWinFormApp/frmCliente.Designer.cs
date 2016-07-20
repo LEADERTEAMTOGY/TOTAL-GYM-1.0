@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.gbCliente = new System.Windows.Forms.GroupBox();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.lbEdad = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -43,13 +44,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lbNombre = new System.Windows.Forms.Label();
             this.llbID = new System.Windows.Forms.Label();
-            this.btnRegresar = new System.Windows.Forms.Button();
             this.gbCliente.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbCliente
             // 
-            this.gbCliente.BackColor = System.Drawing.SystemColors.Control;
+            this.gbCliente.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.gbCliente.BackgroundImage = global::TotalGymWinFormApp.Properties.Resources.subcliente4;
             this.gbCliente.Controls.Add(this.btnRegresar);
             this.gbCliente.Controls.Add(this.textBox6);
             this.gbCliente.Controls.Add(this.lbEdad);
@@ -65,12 +66,24 @@
             this.gbCliente.Controls.Add(this.label3);
             this.gbCliente.Controls.Add(this.lbNombre);
             this.gbCliente.Controls.Add(this.llbID);
+            this.gbCliente.ForeColor = System.Drawing.Color.Cyan;
             this.gbCliente.Location = new System.Drawing.Point(12, 23);
             this.gbCliente.Name = "gbCliente";
             this.gbCliente.Size = new System.Drawing.Size(333, 276);
             this.gbCliente.TabIndex = 0;
             this.gbCliente.TabStop = false;
             this.gbCliente.Text = "Cliente";
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.ForeColor = System.Drawing.Color.Crimson;
+            this.btnRegresar.Location = new System.Drawing.Point(241, 242);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(84, 28);
+            this.btnRegresar.TabIndex = 1;
+            this.btnRegresar.Text = "Regresar";
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox6
             // 
@@ -122,6 +135,7 @@
             // 
             // btnConsultar
             // 
+            this.btnConsultar.ForeColor = System.Drawing.Color.Crimson;
             this.btnConsultar.Location = new System.Drawing.Point(241, 30);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(75, 23);
@@ -185,21 +199,11 @@
             this.llbID.TabIndex = 0;
             this.llbID.Text = "ID cliente";
             // 
-            // btnRegresar
-            // 
-            this.btnRegresar.Location = new System.Drawing.Point(241, 242);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(84, 28);
-            this.btnRegresar.TabIndex = 1;
-            this.btnRegresar.Text = "Regresar";
-            this.btnRegresar.UseVisualStyleBackColor = true;
-            this.btnRegresar.Click += new System.EventHandler(this.button1_Click);
-            // 
             // frmCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(361, 329);
             this.ControlBox = false;
             this.Controls.Add(this.gbCliente);

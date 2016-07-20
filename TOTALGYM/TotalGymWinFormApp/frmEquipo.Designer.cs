@@ -43,6 +43,7 @@
             // 
             // gbEquipo
             // 
+            this.gbEquipo.BackgroundImage = global::TotalGymWinFormApp.Properties.Resources.ventanaequipo8;
             this.gbEquipo.Controls.Add(this.lbCantidad);
             this.gbEquipo.Controls.Add(this.lbDescripcion);
             this.gbEquipo.Controls.Add(this.textBox4);
@@ -109,6 +110,7 @@
             // 
             // btnConsultar
             // 
+            this.btnConsultar.ForeColor = System.Drawing.Color.Crimson;
             this.btnConsultar.Location = new System.Drawing.Point(257, 33);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(75, 23);
@@ -136,9 +138,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(375, 279);
             this.ControlBox = false;
             this.Controls.Add(this.gbEquipo);
+            this.ForeColor = System.Drawing.Color.Cornsilk;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmEquipo";
