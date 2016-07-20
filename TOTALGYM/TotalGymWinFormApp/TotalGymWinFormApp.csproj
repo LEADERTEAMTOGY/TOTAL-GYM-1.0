@@ -63,6 +63,18 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMenuUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuUsuario.Designer.cs">
+      <DependentUpon>frmMenuUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuAdmin.Designer.cs">
+      <DependentUpon>frmMenuAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPersonal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +101,12 @@
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuUsuario.resx">
+      <DependentUpon>frmMenuUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuAdmin.resx">
+      <DependentUpon>frmMenuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPersonal.resx">
       <DependentUpon>frmPersonal.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,7 +121,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="bin\Debug\TotalGymWinFormApp.exe.config" />
     <None Include="bin\Debug\TotalGymWinFormApp.vshost.exe.config" />
@@ -126,40 +143,6 @@
   <ItemGroup>
     <Content Include="bin\Debug\TotalGymWinFormApp.vshost.exe" />
     <Content Include="obj\Debug\TotalGymWinFormApp.csproj.FileListAbsolute.txt" />
-    <None Include="Resources\ventanaproductos3.jpg" />
-    <None Include="Resources\ventanaproductos2.jpg" />
-    <None Include="Resources\ventaanproductos1.jpg" />
-    <None Include="Resources\ventanapersonal6.jpg" />
-    <None Include="Resources\ventanapersonal5.jpg" />
-    <None Include="Resources\ventanapersonal4.jpg" />
-    <None Include="Resources\ventanapersonal2.jpg" />
-    <None Include="Resources\ventanapersonal1.jpg" />
-    <None Include="Resources\ventanalogin6.jpg" />
-    <None Include="Resources\ventanalogin5.jpg" />
-    <None Include="Resources\ventanalogin4.jpg" />
-    <None Include="Resources\ventanalogin3.jpg" />
-    <None Include="Resources\ventanalogin2.jpg" />
-    <None Include="Resources\ventanalogin1.jpg" />
-    <None Include="Resources\ventanaequipo8.jpg" />
-    <None Include="Resources\ventanaequipo7.jpg" />
-    <None Include="Resources\ventanaequipo6.jpg" />
-    <None Include="Resources\ventanaequipo5.jpg" />
-    <None Include="Resources\ventanaequipo4.jpg" />
-    <None Include="Resources\ventanaequipo3.jpg" />
-    <None Include="Resources\ventanaequipo2.jpg" />
-    <None Include="Resources\ventanaequipo1.jpg" />
-    <None Include="Resources\subcliente4.jpg" />
-    <None Include="Resources\subcliente3.jpg" />
-    <None Include="Resources\subcliente2.jpg" />
-    <None Include="Resources\subcliente1.jpg" />
-    <None Include="Resources\cliente9.jpg" />
-    <None Include="Resources\cliente8.jpg" />
-    <None Include="Resources\cliente7.jpg" />
-    <None Include="Resources\cliente6.jpg" />
-    <None Include="Resources\cliente4.jpg" />
-    <None Include="Resources\cliente3.jpg" />
-    <None Include="Resources\cliente2.jpg" />
-    <None Include="Resources\cliente.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">

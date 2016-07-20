@@ -182,6 +182,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmPersonal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.gppersonal.ResumeLayout(false);
             this.gppersonal.PerformLayout();
             this.ResumeLayout(false);

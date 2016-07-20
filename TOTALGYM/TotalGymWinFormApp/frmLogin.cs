@@ -11,7 +11,9 @@ using System.Windows.Forms;
 namespace TotalGymWinFormApp
 {
     public partial class frmLogin : Form
+
     {
+
         public frmLogin()
         {
             InitializeComponent();
@@ -27,9 +29,12 @@ namespace TotalGymWinFormApp
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void btnIngresar_Click(object sender, EventArgs e)
         {
-
-        }
+            
+                frmMenuAdmin menuad = new frmMenuAdmin();
+                menuad.Show();
+                this.Hide();
+            } 
     }
 }

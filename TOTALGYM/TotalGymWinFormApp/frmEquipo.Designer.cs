@@ -43,7 +43,6 @@
             // 
             // gbEquipo
             // 
-            this.gbEquipo.BackgroundImage = global::TotalGymWinFormApp.Properties.Resources.ventanaequipo8;
             this.gbEquipo.Controls.Add(this.lbCantidad);
             this.gbEquipo.Controls.Add(this.lbDescripcion);
             this.gbEquipo.Controls.Add(this.textBox4);
@@ -53,7 +52,6 @@
             this.gbEquipo.Controls.Add(this.btnConsultar);
             this.gbEquipo.Controls.Add(this.textBox1);
             this.gbEquipo.Controls.Add(this.lbCode);
-            this.gbEquipo.ForeColor = System.Drawing.Color.DarkTurquoise;
             this.gbEquipo.Location = new System.Drawing.Point(12, 30);
             this.gbEquipo.Name = "gbEquipo";
             this.gbEquipo.Size = new System.Drawing.Size(351, 237);
@@ -64,24 +62,18 @@
             // lbCantidad
             // 
             this.lbCantidad.AutoSize = true;
-            this.lbCantidad.BackColor = System.Drawing.Color.Azure;
-            this.lbCantidad.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.lbCantidad.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.lbCantidad.Location = new System.Drawing.Point(6, 159);
             this.lbCantidad.Name = "lbCantidad";
-            this.lbCantidad.Size = new System.Drawing.Size(54, 11);
+            this.lbCantidad.Size = new System.Drawing.Size(49, 13);
             this.lbCantidad.TabIndex = 8;
             this.lbCantidad.Text = "Cantidad";
             // 
             // lbDescripcion
             // 
             this.lbDescripcion.AutoSize = true;
-            this.lbDescripcion.BackColor = System.Drawing.Color.Azure;
-            this.lbDescripcion.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.lbDescripcion.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.lbDescripcion.Location = new System.Drawing.Point(6, 116);
             this.lbDescripcion.Name = "lbDescripcion";
-            this.lbDescripcion.Size = new System.Drawing.Size(73, 11);
+            this.lbDescripcion.Size = new System.Drawing.Size(63, 13);
             this.lbDescripcion.TabIndex = 7;
             this.lbDescripcion.Text = "Descripcion";
             // 
@@ -109,26 +101,20 @@
             // lbNombre
             // 
             this.lbNombre.AutoSize = true;
-            this.lbNombre.BackColor = System.Drawing.Color.Azure;
-            this.lbNombre.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.lbNombre.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.lbNombre.Location = new System.Drawing.Point(6, 33);
             this.lbNombre.Name = "lbNombre";
-            this.lbNombre.Size = new System.Drawing.Size(44, 11);
+            this.lbNombre.Size = new System.Drawing.Size(44, 13);
             this.lbNombre.TabIndex = 3;
             this.lbNombre.Text = "Nombre";
             // 
             // btnConsultar
             // 
-            this.btnConsultar.BackColor = System.Drawing.Color.Azure;
-            this.btnConsultar.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.btnConsultar.ForeColor = System.Drawing.Color.DarkCyan;
             this.btnConsultar.Location = new System.Drawing.Point(257, 33);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(75, 23);
             this.btnConsultar.TabIndex = 2;
             this.btnConsultar.Text = "Consultar";
-            this.btnConsultar.UseVisualStyleBackColor = false;
+            this.btnConsultar.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -140,12 +126,9 @@
             // lbCode
             // 
             this.lbCode.AutoSize = true;
-            this.lbCode.BackColor = System.Drawing.Color.Azure;
-            this.lbCode.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
-            this.lbCode.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.lbCode.Location = new System.Drawing.Point(6, 76);
             this.lbCode.Name = "lbCode";
-            this.lbCode.Size = new System.Drawing.Size(90, 11);
+            this.lbCode.Size = new System.Drawing.Size(75, 13);
             this.lbCode.TabIndex = 0;
             this.lbCode.Text = "Codigo equipo";
             // 
@@ -153,12 +136,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(375, 279);
             this.ControlBox = false;
             this.Controls.Add(this.gbEquipo);
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmEquipo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Equipo";
             this.Load += new System.EventHandler(this.frmEquipo_Load);
             this.gbEquipo.ResumeLayout(false);

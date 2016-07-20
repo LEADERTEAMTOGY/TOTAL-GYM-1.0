@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace TotalGymWinFormApp
 {
-    public partial class frmCliente : Form
+    public partial class frmMenuPrincipal : Form
     {
-        public frmCliente()
+        public frmMenuPrincipal()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmMenuAdmin administrador = new frmMenuAdmin();
-            administrador.Show();
-            this.Hide();
-
         }
     }
 }
