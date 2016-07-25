@@ -50,7 +50,7 @@
             // btnProducto
             // 
             this.btnProducto.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnProducto.Font = new System.Drawing.Font("Code Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.btnProducto.ForeColor = System.Drawing.Color.Cyan;
             this.btnProducto.Location = new System.Drawing.Point(140, 143);
             this.btnProducto.Name = "btnProducto";
@@ -58,11 +58,12 @@
             this.btnProducto.TabIndex = 10;
             this.btnProducto.Text = "Producto ";
             this.btnProducto.UseVisualStyleBackColor = false;
+            this.btnProducto.Click += new System.EventHandler(this.btnProducto_Click);
             // 
             // btnEquipo
             // 
             this.btnEquipo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnEquipo.Font = new System.Drawing.Font("Code Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnEquipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.btnEquipo.ForeColor = System.Drawing.Color.Cyan;
             this.btnEquipo.Location = new System.Drawing.Point(140, 109);
             this.btnEquipo.Name = "btnEquipo";
@@ -96,7 +97,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TotalGymWinFormApp.Properties.Resources.ventanalogin22;
-            this.ClientSize = new System.Drawing.Size(379, 174);
+            this.ClientSize = new System.Drawing.Size(386, 227);
             this.ControlBox = false;
             this.Controls.Add(this.lblInformacion);
             this.Controls.Add(this.btnProducto);
