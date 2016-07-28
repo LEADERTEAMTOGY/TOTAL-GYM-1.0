@@ -28,31 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblInformacion = new System.Windows.Forms.Label();
             this.btnProducto = new System.Windows.Forms.Button();
             this.btnEquipo = new System.Windows.Forms.Button();
             this.lblNombreAdmin = new System.Windows.Forms.Label();
             this.lblEtiquetaUsuario = new System.Windows.Forms.Label();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // lblInformacion
-            // 
-            this.lblInformacion.AutoSize = true;
-            this.lblInformacion.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblInformacion.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInformacion.ForeColor = System.Drawing.Color.Cyan;
-            this.lblInformacion.Location = new System.Drawing.Point(5, 151);
-            this.lblInformacion.Name = "lblInformacion";
-            this.lblInformacion.Size = new System.Drawing.Size(102, 20);
-            this.lblInformacion.TabIndex = 13;
-            this.lblInformacion.Text = "Acerca Total Gym 1.0";
             // 
             // btnProducto
             // 
             this.btnProducto.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.btnProducto.ForeColor = System.Drawing.Color.Cyan;
-            this.btnProducto.Location = new System.Drawing.Point(140, 143);
+            this.btnProducto.Location = new System.Drawing.Point(191, 109);
             this.btnProducto.Name = "btnProducto";
             this.btnProducto.Size = new System.Drawing.Size(117, 28);
             this.btnProducto.TabIndex = 10;
@@ -65,12 +53,13 @@
             this.btnEquipo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnEquipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.btnEquipo.ForeColor = System.Drawing.Color.Cyan;
-            this.btnEquipo.Location = new System.Drawing.Point(140, 109);
+            this.btnEquipo.Location = new System.Drawing.Point(54, 109);
             this.btnEquipo.Name = "btnEquipo";
             this.btnEquipo.Size = new System.Drawing.Size(117, 28);
             this.btnEquipo.TabIndex = 9;
             this.btnEquipo.Text = "Equipo";
             this.btnEquipo.UseVisualStyleBackColor = false;
+            this.btnEquipo.Click += new System.EventHandler(this.btnEquipo_Click);
             // 
             // lblNombreAdmin
             // 
@@ -92,14 +81,27 @@
             this.lblEtiquetaUsuario.TabIndex = 7;
             this.lblEtiquetaUsuario.Text = "Usuario: ";
             // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnSalir.ForeColor = System.Drawing.Color.Cyan;
+            this.btnSalir.Location = new System.Drawing.Point(54, 171);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(117, 28);
+            this.btnSalir.TabIndex = 14;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // frmMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TotalGymWinFormApp.Properties.Resources.ventanalogin22;
-            this.ClientSize = new System.Drawing.Size(386, 227);
+            this.ClientSize = new System.Drawing.Size(386, 226);
             this.ControlBox = false;
-            this.Controls.Add(this.lblInformacion);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnProducto);
             this.Controls.Add(this.btnEquipo);
             this.Controls.Add(this.lblNombreAdmin);
@@ -110,6 +112,7 @@
             this.Name = "frmMenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Usuario";
+            this.Load += new System.EventHandler(this.frmMenuPrincipal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,10 +120,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblInformacion;
         private System.Windows.Forms.Button btnProducto;
         private System.Windows.Forms.Button btnEquipo;
         private System.Windows.Forms.Label lblNombreAdmin;
         private System.Windows.Forms.Label lblEtiquetaUsuario;
+        private System.Windows.Forms.Button btnSalir;
     }
 }

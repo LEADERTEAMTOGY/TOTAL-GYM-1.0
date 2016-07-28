@@ -21,5 +21,22 @@ namespace TotalGymWinFormApp
         {
 
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnEquipo_Click(object sender, EventArgs e)
+        {
+            CONEXION c = new CONEXION();
+            c.cargarPersonas(dgv);
+
+        }
+
+        private void frmMenuPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

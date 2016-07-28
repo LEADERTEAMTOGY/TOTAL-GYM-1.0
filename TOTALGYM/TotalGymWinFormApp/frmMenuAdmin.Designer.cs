@@ -35,17 +35,18 @@
             this.btnPersonal = new System.Windows.Forms.Button();
             this.btnProducto = new System.Windows.Forms.Button();
             this.lblInformacion = new System.Windows.Forms.Label();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblEtiquetaUsuario
             // 
             this.lblEtiquetaUsuario.AutoSize = true;
             this.lblEtiquetaUsuario.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.lblEtiquetaUsuario.Font = new System.Drawing.Font("Code Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.lblEtiquetaUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.lblEtiquetaUsuario.ForeColor = System.Drawing.Color.Crimson;
             this.lblEtiquetaUsuario.Location = new System.Drawing.Point(164, 9);
             this.lblEtiquetaUsuario.Name = "lblEtiquetaUsuario";
-            this.lblEtiquetaUsuario.Size = new System.Drawing.Size(53, 11);
+            this.lblEtiquetaUsuario.Size = new System.Drawing.Size(58, 13);
             this.lblEtiquetaUsuario.TabIndex = 0;
             this.lblEtiquetaUsuario.Text = "Usuario: ";
             // 
@@ -60,7 +61,7 @@
             // btnClientes
             // 
             this.btnClientes.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnClientes.Font = new System.Drawing.Font("Code Bold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.btnClientes.ForeColor = System.Drawing.Color.Cyan;
             this.btnClientes.Location = new System.Drawing.Point(22, 42);
             this.btnClientes.Name = "btnClientes";
@@ -73,7 +74,7 @@
             // btnEquipo
             // 
             this.btnEquipo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnEquipo.Font = new System.Drawing.Font("Code Bold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnEquipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.btnEquipo.ForeColor = System.Drawing.Color.Cyan;
             this.btnEquipo.Location = new System.Drawing.Point(22, 148);
             this.btnEquipo.Name = "btnEquipo";
@@ -86,7 +87,7 @@
             // btnPersonal
             // 
             this.btnPersonal.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnPersonal.Font = new System.Drawing.Font("Code Bold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnPersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.btnPersonal.ForeColor = System.Drawing.Color.Cyan;
             this.btnPersonal.Location = new System.Drawing.Point(222, 42);
             this.btnPersonal.Name = "btnPersonal";
@@ -99,7 +100,7 @@
             // btnProducto
             // 
             this.btnProducto.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnProducto.Font = new System.Drawing.Font("Code Bold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
             this.btnProducto.ForeColor = System.Drawing.Color.Cyan;
             this.btnProducto.Location = new System.Drawing.Point(222, 148);
             this.btnProducto.Name = "btnProducto";
@@ -115,19 +116,33 @@
             this.lblInformacion.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lblInformacion.Font = new System.Drawing.Font("Agency FB", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInformacion.ForeColor = System.Drawing.Color.Crimson;
-            this.lblInformacion.Location = new System.Drawing.Point(3, 215);
+            this.lblInformacion.Location = new System.Drawing.Point(287, 258);
             this.lblInformacion.Name = "lblInformacion";
             this.lblInformacion.Size = new System.Drawing.Size(88, 17);
             this.lblInformacion.TabIndex = 6;
             this.lblInformacion.Text = "Acerca Total Gym 1.0";
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(77)));
+            this.btnSalir.ForeColor = System.Drawing.Color.Cyan;
+            this.btnSalir.Location = new System.Drawing.Point(126, 244);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(117, 28);
+            this.btnSalir.TabIndex = 7;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // frmMenuAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TotalGymWinFormApp.Properties.Resources.ventanalogin61;
-            this.ClientSize = new System.Drawing.Size(372, 237);
+            this.ClientSize = new System.Drawing.Size(377, 284);
             this.ControlBox = false;
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.lblInformacion);
             this.Controls.Add(this.btnProducto);
             this.Controls.Add(this.btnPersonal);
@@ -155,5 +170,6 @@
         private System.Windows.Forms.Button btnPersonal;
         private System.Windows.Forms.Button btnProducto;
         private System.Windows.Forms.Label lblInformacion;
+        private System.Windows.Forms.Button btnSalir;
     }
 }

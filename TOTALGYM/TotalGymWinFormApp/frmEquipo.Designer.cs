@@ -44,6 +44,7 @@
             this.txtCod = new System.Windows.Forms.TextBox();
             this.lbCode = new System.Windows.Forms.Label();
             this.dgv = new System.Windows.Forms.DataGridView();
+            this.bnRegresar = new System.Windows.Forms.Button();
             this.gbEquipo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
@@ -52,6 +53,7 @@
             // 
             this.gbEquipo.BackColor = System.Drawing.Color.DarkSlateGray;
             this.gbEquipo.BackgroundImage = global::TotalGymWinFormApp.Properties.Resources.ventanaequipo8;
+            this.gbEquipo.Controls.Add(this.bnRegresar);
             this.gbEquipo.Controls.Add(this.btnSalir);
             this.gbEquipo.Controls.Add(this.btnAgregar);
             this.gbEquipo.Controls.Add(this.lbCantidad);
@@ -168,7 +170,7 @@
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.InactiveCaption;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Cornsilk;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.Desktop;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
@@ -189,6 +191,17 @@
             this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgv.Size = new System.Drawing.Size(365, 237);
             this.dgv.TabIndex = 1;
+            // 
+            // bnRegresar
+            // 
+            this.bnRegresar.ForeColor = System.Drawing.Color.Crimson;
+            this.bnRegresar.Location = new System.Drawing.Point(257, 83);
+            this.bnRegresar.Name = "bnRegresar";
+            this.bnRegresar.Size = new System.Drawing.Size(75, 23);
+            this.bnRegresar.TabIndex = 11;
+            this.bnRegresar.Text = "Regresar";
+            this.bnRegresar.UseVisualStyleBackColor = true;
+            this.bnRegresar.Click += new System.EventHandler(this.bnRegresar_Click);
             // 
             // frmEquipo
             // 
@@ -226,5 +239,6 @@
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.DataGridView dgv;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button bnRegresar;
     }
 }

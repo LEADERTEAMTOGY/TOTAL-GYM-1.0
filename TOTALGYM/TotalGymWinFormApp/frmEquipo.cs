@@ -62,6 +62,16 @@ namespace TotalGymWinFormApp
         private void txtCod_TextChanged(object sender, EventArgs e)
         {
 
+
+        }
+
+        private void bnRegresar_Click(object sender, EventArgs e)
+        {
+            frmMenuAdmin a = new frmMenuAdmin();
+            a.Show();
+
+            this.Close();
+
         }
     }
 }

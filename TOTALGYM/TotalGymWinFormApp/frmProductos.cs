@@ -36,5 +36,14 @@ namespace TotalGymWinFormApp
         {
 
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            frmMenuAdmin a = new frmMenuAdmin();
+            a.Show();
+
+            this.Close();
+
+        }
     }
 }
